@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".List1">
+
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="@dimen/activity_list_view_width"
+        android:layout_height="@dimen/activity_list_view_height"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginVertical="100dp"
+        android:background="@drawable/mess" />
+
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="@dimen/activity_list_view_width"
+        android:layout_height="@dimen/activity_list_view_height"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginVertical="260dp"
+        android:background="@drawable/grocery" />
+
+    <Button
+        android:id="@+id/but3"
+        android:layout_width="@dimen/activity_list_view_width"
+        android:layout_height="@dimen/activity_list_view_height"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginVertical="430dp"
+        android:background="@drawable/com" />
+
+    <Button
+        android:id="@+id/but4"
+        android:layout_width="@dimen/activity_list_view_width"
+        android:layout_height="@dimen/activity_list_view_height"
+        android:layout_marginHorizontal="230dp"
+        android:layout_marginVertical="430dp"
+        android:background="@drawable/hospital" />
+
+    <Button
+        android:id="@+id/but5"
+        android:layout_width="@dimen/activity_list_view_width"
+        android:layout_height="@dimen/activity_list_view_height"
+        android:layout_marginHorizontal="230dp"
+        android:layout_marginVertical="260dp"
+        android:background="@drawable/shop" />
+
+    <Button
+        android:id="@+id/but6"
+        android:layout_width="@dimen/activity_list_view_width"
+        android:layout_height="@dimen/activity_list_view_height"
+        android:layout_marginHorizontal="230dp"
+        android:layout_marginVertical="100dp"
+        android:background="@drawable/hostel" />
+
+</RelativeLayout>

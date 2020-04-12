@@ -1,0 +1,5 @@
+<resources>
+
+    <dimen name="activity_list_view_width">100dp</dimen>
+    <dimen name="activity_list_view_height">100dp</dimen>
+</resources>
