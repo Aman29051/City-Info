@@ -30,6 +30,7 @@ public class ListViewAdapter extends BaseAdapter {
     public class ViewHolder{
         TextView mTitleTv, mDescTv;
         ImageView mIconIv;
+
     }
 
     @Override
@@ -81,9 +82,13 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
+
                 if (modelList.get(position).getTitle().equals("Mess2")){
                     Intent intent = new Intent(mContext, NewMessActivity.class);
                     intent.putExtra("actionBarTitle", "Mess2");
@@ -94,7 +99,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "16.814802, 81.525729");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Mess3")){
@@ -107,7 +115,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "16.815110, 81.531387");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Mess4")){
@@ -120,7 +131,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "16.815649, 81.519117");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Mess5")){
@@ -133,7 +147,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "17.276815, 82.545933");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Mess6")){
@@ -146,7 +163,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "17.208997, 81.786856");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Mess7")){
@@ -159,7 +179,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "17.963688, 79.606587");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Mess8")){
@@ -172,7 +195,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Mess9")){
@@ -185,7 +211,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Mess10")){
@@ -198,7 +227,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("GroceryStore1")){
@@ -211,7 +243,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "17.522870, 78.595139");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("GroceryStore2")){
@@ -224,7 +259,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("GroceryStore3")){
@@ -237,7 +275,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("GroceryStore4")){
@@ -250,7 +291,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("GroceryStore5")){
@@ -263,7 +307,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("GroceryStore6")){
@@ -276,7 +323,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("GroceryStore7")){
@@ -289,7 +339,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("GroceryStore8")){
@@ -302,7 +355,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("GroceryStore9")){
@@ -315,7 +371,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("GroceryStore10")){
@@ -328,7 +387,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("com1")){
@@ -341,7 +403,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("com2")){
@@ -354,7 +419,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("com3")){
@@ -367,7 +435,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("com4")){
@@ -380,7 +451,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("com5")){
@@ -393,7 +467,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("com6")){
@@ -406,7 +483,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("com7")){
@@ -419,7 +499,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("com8")){
@@ -432,7 +515,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("com9")){
@@ -445,7 +531,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("com10")){
@@ -458,7 +547,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Hospital1")){
@@ -471,7 +563,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Hospital2")){
@@ -484,7 +579,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Hospital3")){
@@ -497,7 +595,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Hospital4")){
@@ -510,7 +611,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Hospital5")){
@@ -523,7 +627,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Hospital6")){
@@ -536,7 +643,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Hospital7")){
@@ -549,7 +659,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Hospital8")){
@@ -562,7 +675,11 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
+
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Hospital9")){
@@ -575,7 +692,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Hospital10")){
@@ -588,7 +708,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Shop1")){
@@ -601,7 +724,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Shop2")){
@@ -614,7 +740,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Shop3")){
@@ -627,7 +756,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Shop4")){
@@ -640,7 +772,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Shop5")){
@@ -653,7 +788,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Shop6")){
@@ -666,7 +804,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Shop7")){
@@ -679,7 +820,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Shop8")){
@@ -692,7 +836,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Shop9")){
@@ -705,7 +852,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Shop10")){
@@ -718,7 +868,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Hostel1")){
@@ -731,7 +884,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Hostel2")){
@@ -744,7 +900,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Hostel3")){
@@ -757,7 +916,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Hostel4")){
@@ -770,7 +932,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Hostel5")){
@@ -783,7 +948,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Hostel6")){
@@ -796,7 +964,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Hostel7")){
@@ -809,7 +980,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Hostel8")){
@@ -822,7 +996,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Hostel9")){
@@ -835,7 +1012,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
                 if (modelList.get(position).getTitle().equals("Hostel10")){
@@ -848,7 +1028,10 @@ public class ListViewAdapter extends BaseAdapter {
                     intent.putExtra("contentTv5", "9111716603");
                     intent.putExtra("contentTv6", "amanyadav63721@gmail.com");
                     intent.putExtra("contentTv7", "Address: 355,WardNO-08,shivpur Hoshangabad Madhya Pradesh 461223 ");
-                    intent.putExtra("contentTv3", "Location");
+                    intent.putExtra("contentTv10", "LOCATION");
+                    intent.putExtra("contentTv8", "19.862566, 75.519377");
+                    intent.putExtra("contentTv9", "");
+                    intent.putExtra("contentTv3", "MAP");
                     mContext.startActivity(intent);
                 }
 
